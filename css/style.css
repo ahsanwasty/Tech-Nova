@@ -1,0 +1,42 @@
+:root{--navy:#10243e;--accent:#f5a524;--light:#f4f6f9}
+body{font-family:'Manrope',system-ui,sans-serif;color:#26323f}
+a{text-decoration:none}
+.top-bar{background:var(--navy);color:#cfd8e3}
+.top-bar a{color:#cfd8e3}.top-bar a:hover{color:var(--accent)}
+.main-nav{background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.08);padding:0}
+.main-nav .navbar-brand{color:var(--navy);font-size:1.5rem}
+.main-nav .navbar-brand i{color:var(--accent)}
+.main-nav .nav-link{color:var(--navy);font-weight:600;padding:1rem;text-align:center;border-bottom:3px solid transparent;transition:.25s}
+.main-nav .nav-link:hover,.main-nav .nav-link.active{background:var(--navy);color:#fff;border-bottom-color:var(--accent)}
+.btn-accent{background:var(--accent);border-color:var(--accent);color:var(--navy);font-weight:700}
+.btn-accent:hover{background:#dc8f0f;color:var(--navy)}
+.btn-navy{background:var(--navy);color:#fff}.btn-navy:hover{background:#1c3b62;color:#fff}
+#banner img{height:70vh;min-height:380px;object-fit:cover;filter:brightness(.55)}
+#banner .carousel-caption{top:50%;bottom:auto;transform:translateY(-50%)}
+#banner h2{font-size:clamp(1.6rem,4vw,3.2rem);font-weight:800}
+.section{padding:70px 0}
+.section-title{text-align:center;font-weight:800;color:var(--navy);margin-bottom:2rem}
+.icon{font-size:2.5rem;color:var(--accent)}
+.service-card,.project-card,.review,.team{border:0;box-shadow:0 2px 12px rgba(16,36,62,.1);transition:transform .25s,box-shadow .25s}
+.service-card:hover,.project-card:hover,.team:hover{transform:translateY(-6px);box-shadow:0 8px 20px rgba(16,36,62,.18)}
+.review i{color:var(--accent)}
+.tech i{font-size:3rem}
+.page-head{background:var(--navy);color:#fff;padding:40px 0}
+.page-head h1{font-size:2rem;font-weight:800}
+.page-head a{color:var(--accent)}.page-head .active,.breadcrumb-item+.breadcrumb-item::before{color:#cfd8e3}
+.accordion-button:not(.collapsed){background:#fff4e0;color:var(--navy)}
+.detail-card{border-left:5px solid var(--accent)}
+.filter .active{background:var(--navy);border-color:var(--navy)}
+.pagination .active .page-link{background:var(--navy);border-color:var(--navy)}
+.pagination .page-link{color:var(--navy);cursor:pointer}
+.zoom-box{overflow:hidden;border-radius:8px;cursor:zoom-in}
+.zoom-box img{width:100%;transition:transform .2s}
+.thumbs img{width:90px;height:65px;object-fit:cover;cursor:pointer;border:2px solid transparent;border-radius:4px}
+.thumbs img.on{border-color:var(--accent)}
+.team img{aspect-ratio:1;object-fit:cover}
+.contact-list li{margin-bottom:1rem;font-size:1.05rem}.contact-list i{color:var(--accent);margin-right:8px}
+.big-footer{background:var(--navy);color:#cfd8e3}
+.big-footer h5{color:#fff}.big-footer a{color:#cfd8e3}.big-footer a:hover{color:var(--accent)}
+.big-footer ul li{margin-bottom:.4rem}
+.copyright{background:#0a1829;font-size:.9rem}
+@media(max-width:991px){.main-nav .nav-link{text-align:left}.section{padding:45px 0}}
